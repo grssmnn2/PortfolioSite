@@ -13,6 +13,11 @@ imageDiv{
 	height: 100%;
 }
 
+.aboutMe{
+	font-size: 24px;
+	line-height: 25px;
+}
+
 .social{
 	margin: 0 auto;
 	padding: 5%;
@@ -21,7 +26,7 @@ imageDiv{
   .fa{
 	border-radius: 50%;
 	padding: 12px;
-	font-size: 24px;
+	font-size: 12px;
 	width: -6px;
 	text-align: center;
 	text-decoration: none;
