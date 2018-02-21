@@ -9,7 +9,7 @@
 <meta charset="utf-8">
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Adriya - Minimal, Creative, One Page Bootstrap Template</title>
+<title>Cecily Grossmann</title>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/flexslider.css">
 <link rel="stylesheet" href="css/jquery.fancybox.css">
@@ -23,7 +23,7 @@
 <!-- header top section -->
 <section class="banner" role="banner">
   <header id="header">
-    <div class="header-content clearfix"> <a class="logo" href="index.html"><img src="images/logo.png" alt=""></a>
+    <!-- <div class="header-content clearfix"> <a class="logo" href="index.html"><img src="images/logo.png" alt=""></a> -->
       <nav class="navigation" role="navigation">
         <ul class="primary-nav">
           <li><a href="mainlto:grssmnn2@gmail.com">grssmnn2@gmail.com</a></li>
@@ -37,18 +37,29 @@
 <section id="hero" class="section ">
   <div class="container">
     <div class="row">
-      <div class="col-md-7 col-sm-6 hero">
+      <div class="col-sm-12 hero">
         <div class="hero-content">
           <h1>Cecily Grossmann Official Portfolio</h1>
         </div>
         <!-- hero --> 
       </div>
-      <div class="col-md-5 col-sm-6 hero">
-        <div class="hero-content">
-          <p>View recent projects utilizing HTML, CSS, Javascript, jQuery, Node JS, Firebase, and AJAX</p>
-        </div>
-        <!-- hero --> 
+
+      <div class="col-sm-6">
+        <!-- image of cecily -->
+        <img id="cecily" src = "../cecily.jpg">
       </div>
+     
+      <div class="col-sm-6">
+          <h4>Passionate about all things science, technology, and planet improving.</h4>
+          <p>Graduated from the University of Illinois Urbana-Champaign with a 
+            Bachelor's in Biology and Chicago's Northwestern University
+            with a certificate in web development. Seeking a career
+            that combines aspects of both. Enjoys cats, coffee, british detective shows,
+            and solving tricky code challenges.
+          </p>
+           <p>Scroll to view recent projects utilizing AJAX, various APIs, Bootstrap, CSS, Firebase, HTML, Javascript, jQuery, and Node JS</p>
+      </div>
+        </div>
     </div>
   </div>
 </section>
@@ -69,24 +80,26 @@
             <h4>January 2018</h4>
           </div>
         </div>
-        <img src="../findfido3.png" class="img-responsive" alt=""> </a> </div>
-      <div class="col-sm-6 portfolio-item"> <a href="https://grssmnn2.github.io/TriviaGame/" class="portfolio-link">
+        <img src="../findfido3.png" class="project img-responsive" alt=""> </a> </div>
+      <div class="imageDiv col-sm-6 portfolio-item"> <a href="https://grssmnn2.github.io/TriviaGame/" class="portfolio-link">
         <div class="caption">
           <div class="caption-content">
             <h3>Harry Potter Trivia Game</h3>
             <h4>December 2017</h4>
           </div>
         </div>
-        <img src="../harrypotter.png" class="img-responsive" alt=""> </a> </div>
-      <div class="col-sm-6 portfolio-item"> <a href="https://grssmnn2.github.io/GiphyAPI/" class="portfolio-link">
+        <img src="../harrypotter.png" class="project img-responsive" alt=""> </a> </div>
+        </div>
+        <div class="row">
+        <div class="imageDiv col-sm-6 portfolio-item"> <a href="https://grssmnn2.github.io/GiphyAPI/" class="portfolio-link">
         <div class="caption">
           <div class="caption-content">
             <h3>Giphy API: Search a Word to Get Gif results</h3>
             <h4>December 2017</h4>
           </div>
         </div>
-        <img src="../giphy.png" class="img-responsive" alt=""> </a> </div>
-      <div class="col-sm-6 portfolio-item"> <a href="https://grssmnn2.github.io/TrainApp/" class="portfolio-link">
+        <img src="../giphy.png" class="project img-responsive" alt=""> </a> </div>
+      <div id = "train" class="imageDiv col-sm-6 portfolio-item"> <a href="https://grssmnn2.github.io/TrainApp/" class="portfolio-link">
         <div class="caption">
           <div class="caption-content">
             <h3>Interactive Train Schedule</h3>
@@ -94,23 +107,25 @@
           </div>
         </div>
         <img src="../train.png" class="img-responsive" alt=""> </a> </div>
-      <div class="col-sm-6 portfolio-item"> <a href="https://grssmnn2.github.io/Week-4-Game/" class="portfolio-link">
+      </div>
+      <div class="row">
+        <div class="imageDiv col-sm-6 portfolio-item"> <a href="https://grssmnn2.github.io/Week-4-Game/" class="portfolio-link">
         <div class="caption">
           <div class="caption-content">
             <h3>Crystal Collector Game</h3>
             <h4>November 2017</h4>
           </div>
         </div>
-        <img src="../crystal.png" class="img-responsive" alt=""> </a> </div>
-      <div class="col-sm-6 portfolio-item"> <a href="work-details.html" class="portfolio-link">
+        <img src="../crystal.png" class="project img-responsive" alt=""> </a> </div>
+      <div class="imageDiv col-sm-6 portfolio-item"> <a href="https://github.com/grssmnn2/bamazon" class="portfolio-link">
         <div class="caption">
           <div class="caption-content">
-            <h3>czarna kawka</h3>
-            <h4>Branding</h4>
+            <h3>Node JS Amazon Style Shopping App</h3>
+            <h4>February 2018</h4>
           </div>
         </div>
-        <img src="images/portfolio/work-6.jpg" class="img-responsive" alt=""> </a> </div>
-    </div>
+        <img src="../Nodejs.png" class="project img-responsive" alt=""> </a> </div>
+        </div>
   </div>
 </section>
 <!-- portfolio grid section --> 
@@ -118,29 +133,14 @@
 <section id="service" class="service section">
   <div class="container">
     <div class="row">
-      <div class="col-md-5 col-sm-6">
-        <h4>Passionate about all things science, technology, and planet improving.</h4>
-        <p>Graduated from the University of Illinois Urbana-Champaign in 2015 and Northwestern University in 2018 with a bachelors in biology and certificate in web development. Looking for a career
-          that combines science, biology, and technology.
-        </p>
-      </div>
-      <div class="col-md-7 col-sm-6">
-        <div class="col-md-4 col-sm-6 service text-center"> <span class="icon icon-browser"></span>
-          <div class="service-content">
-            <h5>Web & Mobile</h5>
-          </div>
+   
+        <div class="col-sm-12 text-center social">
+            <a href="https://www.facebook.com/cecilygrssmnn" class="fa fa-facebook"></a>
+            <a href="https://github.com/grssmnn2" class="fa fa-github"></a>
+            <a href="mailto:grssmnn2@gmail.com" class="fa fa-google"></a>
+            <a href="https://www.linkedin.com/in/cecily-grossmann-4711a3145/" class="fa fa-linkedin"></a>
         </div>
-        <div class="col-md-4 col-sm-6 service text-center"> <span class="icon icon-trophy"></span>
-          <div class="service-content">
-            <h5>Branding</h5>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 service text-center"> <span class="icon icon-megaphone"></span>
-          <div class="service-content">
-            <h5>Digital Marketing</h5>
-          </div>
-        </div>
-      </div>
+    </div>
     </div>
   </div>
 </section>
